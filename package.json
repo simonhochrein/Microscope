@@ -1,0 +1,21 @@
+{
+  "name": "electron-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "rm -rf build; electron-packager . 'Electron Apps' --platform=darwin --icon=logo.svg.icns --arch=x64 --out=build --version=1.2.3 --overwrite;appdmg ./dmg.json 'build/Electron Apps.dmg'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "menubar": "^5.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.0.0",
+    "electron": "^1.2.3",
+    "appdmg": "^0.4.5"
+  }
+}

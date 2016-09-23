@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <form>
+                        <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons" id="close">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <ul class="collection">
+        </ul>
+        <div class="fixed-action-btn" style="bottom: 18px; right: 20px;">
+            <a class="btn-floating" id="quit">
+               <i class="material-icons">power_settings_new</i>
+            </a>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.6.1/js-yaml.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
