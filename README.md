@@ -1,5 +1,14 @@
-# Microscope :microscope:
-
 A Electron App Discoverer
 
-download for mac (here)[http://github.com]
+Download for mac [here](http://google.com)
+
+## Screenshots
+
+
+## Build Instructions
+
+```
+$ npm install
+$ npm run build
+```
+The `.dmg` file will be in build
